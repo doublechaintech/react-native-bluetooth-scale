@@ -30,3 +30,4 @@ MIT
 
 Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
 # react-native-bluetooth-scale
+# react-native-bluetooth-scale
