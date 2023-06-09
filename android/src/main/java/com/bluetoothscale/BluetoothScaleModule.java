@@ -54,7 +54,7 @@ public class BluetoothScaleModule extends ReactContextBaseJavaModule {
             if (ACTION_DATA_RECEIVED.equals(actionName)) {
               params.putString("weight", intent.getStringExtra("weight"));
             }
-            
+
 
             
             sendEvent(getReactApplicationContext(), "onEvent", params);
@@ -71,14 +71,6 @@ public class BluetoothScaleModule extends ReactContextBaseJavaModule {
           params);
     }
    
-
-    
-
-
-
-
-
-
 
   @Override
   @NonNull
